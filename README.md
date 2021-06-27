@@ -1,8 +1,8 @@
 # RL-Financial
 ## Requirement
 
-- Python 3.5
-- pip3
+- Python 3.6
+- Pytorch 1.4.0
 
 ## Install & Run
 
