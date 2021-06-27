@@ -9,8 +9,7 @@
 1. (Optional) `virtualenv env -p python3` & `source env/bin/activate`
 2. `pip3 install -r requirements.txt`
    - May have some errors while installing graphic related package on different system
-3. `cd src`
-4. `python3 run.py`
+3. `python3 run.py`
 
 ## Project Structure
 
