@@ -23,6 +23,11 @@
   - Source code
 
 ## Module Description
+- [main.py](main.py)
+  -  run this file for training or testing, and it contains all the important hyperparameters.
+- [rdpg.py](rdpt.py)
+  -  The body code for iRDPG, and it integrates other modules to run the whole algorithm.
+
 
 - [setting.py](src/setting.py)
   -  Contains all the framework variables ( e.g. dataset path, selected dataset, selected methods, selected feature selection methods )
