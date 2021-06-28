@@ -38,7 +38,7 @@
 - [environment.py](environment.py)
   -  The simulated environment for agent trading on China index futures and generating demostrations.
 - [preprocess.py](demonstration/preprocess.py)
-  -  Preprocess the raw IF and IC data to technical indicators, market observations, and prophetic strategy.
+  -  Preprocess the raw IF and IC data to (1)technical indicators, (2)daul thrust strategy, and (3)prophetic strategy.
 
 - [setting.py](src/setting.py)
   -  Contains all the framework variables ( e.g. dataset path, selected dataset, selected methods, selected feature selection methods )
