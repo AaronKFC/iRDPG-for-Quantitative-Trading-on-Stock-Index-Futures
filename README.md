@@ -9,15 +9,6 @@
 1. `python main_train.py`
 2. `python main_test.py`
 
-## Project Structure
-- data
-  - **Empty directory**, synchronized data will be saved at here
-- origin_data
-  - Original source of the dataset
-- report
-  - **Empty directory**, generated report will be here
-- src
-  - Source code
 
 ## Module Description
 - [main.py](main.py)
