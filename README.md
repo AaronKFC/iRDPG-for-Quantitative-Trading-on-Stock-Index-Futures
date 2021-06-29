@@ -30,7 +30,7 @@
 
 
 ## Dataset source
-- JoinQuant website: https://www.joinquant.com/view/community/list?listType=1
+- JoinQuant website: https://www.joinquant.com/help/api/help#name:Future
 
 
 ## References
