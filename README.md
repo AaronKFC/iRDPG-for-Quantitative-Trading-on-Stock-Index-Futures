@@ -40,11 +40,6 @@
 - [preprocess.py](demonstration/preprocess.py)
   -  Preprocess the raw IF and IC data to (1)technical indicators, (2)daul thrust strategy, and (3)prophetic strategy.
 
-- [setting.py](src/setting.py)
-  -  Contains all the framework variables ( e.g. dataset path, selected dataset, selected methods, selected feature selection methods )
-- [run.py](src/run.py)
-  - Entry module that trigger everyother modules to start the process
-
 
 ## Default dataset link
 
@@ -52,4 +47,8 @@
 
 
 ## Reference
-
+- Liu, Yang, et al. "Adaptive quantitative trading: an imitative deep reinforcement learning approach." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 02. 2020.
+- Heess, Nicolas, et al. "Memory-based control with recurrent neural networks." arXiv preprint arXiv:1512.04455 (2015).
+- Vecerik, Mel, et al. "Leveraging demonstrations for deep reinforcement learning on robotics problems with sparse rewards." arXiv preprint arXiv:1707.08817 (2017).
+- Ross, Stéphane, and Drew Bagnell. "Efficient reductions for imitation learning." Proceedings of the thirteenth international conference on artificial intelligence and statistics. JMLR Workshop and Conference Proceedings, 2010.
+- JoinQuant website: https://www.joinquant.com/view/community/list?listType=1
