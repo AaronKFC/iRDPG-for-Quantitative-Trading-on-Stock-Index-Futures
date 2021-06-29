@@ -37,13 +37,12 @@
   -  Implementation for prioritied experience replay (PER).
 - [environment.py](environment.py)
   -  The simulated environment for agent trading on China index futures and generating demostrations.
-- [preprocess.py](demonstration/preprocess.py)
+- [preprocess.py](data_preprocess/preprocess.py)
   -  Preprocess the raw IF and IC data to (1)technical indicators, (2)daul thrust strategy, and (3)prophetic strategy.
 
 
-## Default dataset link
-
-- [AEEEM](http://bug.inf.usi.ch/index.php)
+## Dataset source
+- JoinQuant website: https://www.joinquant.com/view/community/list?listType=1
 
 
 ## Reference
