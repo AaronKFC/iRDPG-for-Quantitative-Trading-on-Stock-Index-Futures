@@ -1,4 +1,4 @@
-# RL-Financial
+# iRDPG for Quantitative Trading on China Stock Index Futures
 ## Requirement
 
 - Python 3.6
