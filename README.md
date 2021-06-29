@@ -1,4 +1,4 @@
-# iRDPG for Quantitative Trading on China Stock Index Futures
+# iRDPG for Quantitative Trading on Stock Index Futures
 ## Requirement
 
 - Python 3.6
