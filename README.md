@@ -29,7 +29,7 @@
   -  Build the gru layer, actor, and critic.
 - [evaluator.py](evaluator.py)
   -  Use the trained agent to test the trading performance.
-- [replay_memory.py](replay_memory.py)
+- [PER_memory.py](replay_memory.py)
   -  Implementation for prioritied experience replay (PER).
 - [environment.py](environment.py)
   -  The simulated environment for agent trading on China index futures and generating demostrations.
@@ -46,4 +46,3 @@
 - Heess, Nicolas, et al. "Memory-based control with recurrent neural networks." arXiv preprint arXiv:1512.04455 (2015).
 - Vecerik, Mel, et al. "Leveraging demonstrations for deep reinforcement learning on robotics problems with sparse rewards." arXiv preprint arXiv:1707.08817 (2017).
 - Ross, Stéphane, and Drew Bagnell. "Efficient reductions for imitation learning." Proceedings of the thirteenth international conference on artificial intelligence and statistics. JMLR Workshop and Conference Proceedings, 2010.
-- JoinQuant website: https://www.joinquant.com/view/community/list?listType=1
