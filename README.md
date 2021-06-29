@@ -6,13 +6,9 @@
 
 ## Install & Run
 
-1. (Optional) `virtualenv env -p python3` & `source env/bin/activate`
-2. `pip3 install -r requirements.txt`
-   - May have some errors while installing graphic related package on different system
-3. `python3 run.py`
+1. `python main.py`
 
 ## Project Structure
-
 - data
   - **Empty directory**, synchronized data will be saved at here
 - origin_data
