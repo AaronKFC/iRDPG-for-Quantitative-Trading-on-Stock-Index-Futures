@@ -4,9 +4,10 @@
 - Python 3.6
 - Pytorch 1.4.0
 
-## Install & Run
+## Run training or test case
 
-1. `python main.py`
+1. `python main_train.py`
+2. `python main_test.py`
 
 ## Project Structure
 - data
@@ -41,7 +42,7 @@
 - JoinQuant website: https://www.joinquant.com/view/community/list?listType=1
 
 
-## Reference
+## References
 - Liu, Yang, et al. "Adaptive quantitative trading: an imitative deep reinforcement learning approach." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 02. 2020.
 - Heess, Nicolas, et al. "Memory-based control with recurrent neural networks." arXiv preprint arXiv:1512.04455 (2015).
 - Vecerik, Mel, et al. "Leveraging demonstrations for deep reinforcement learning on robotics problems with sparse rewards." arXiv preprint arXiv:1707.08817 (2017).
