@@ -38,3 +38,6 @@
 - Heess, Nicolas, et al. "Memory-based control with recurrent neural networks." arXiv preprint arXiv:1512.04455 (2015).
 - Vecerik, Mel, et al. "Leveraging demonstrations for deep reinforcement learning on robotics problems with sparse rewards." arXiv preprint arXiv:1707.08817 (2017).
 - Ross, Stéphane, and Drew Bagnell. "Efficient reductions for imitation learning." Proceedings of the thirteenth international conference on artificial intelligence and statistics. JMLR Workshop and Conference Proceedings, 2010.
+- Moody, John, et al. "Performance functions and reinforcement learning for trading systems and portfolios." Journal of Forecasting 17.5‐6 (1998): 441-470.
+- Schaul, Tom, et al. "Prioritized experience replay." arXiv preprint arXiv:1511.05952 (2015).
+- Kaelbling, Leslie Pack, Michael L. Littman, and Anthony R. Cassandra. "Planning and acting in partially observable stochastic domains." Artificial intelligence 101.1-2 (1998): 99-134.
