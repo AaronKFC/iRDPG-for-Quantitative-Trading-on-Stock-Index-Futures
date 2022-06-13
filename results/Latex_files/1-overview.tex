@@ -1,0 +1,26 @@
+\section{Problem Overview}
+\label{section:intro} %\ref{section:intro}
+
+Please provide a brief overview of the selected paper. You may want to discuss the following aspects:
+\begin{itemize}
+    \item The main research problem tackled by the paper
+    
+    \item High-level description of the proposed method
+\end{itemize}
+
+There are three challenges in this paper. 
+\begin{itemize}
+\item Challenge 1: Noisy High-frequent Financial Data
+
+First, the noisy high-frequent financial data. The market state is hard to be observed since the high-frequent financial data contain much noise. No one can know exactly whether the market is bullish or bearish, and whether it's time to buy or sell the security.
+
+\item Challenge 2: Poor Generalization of Technical Analysis
+
+Second, poor generalization of commonly used technical analysis. Even if the pattern of market reappears, the identical technical analysis may not be able to earn from the similar pattern again. Thousands of factor's interactions cause the market information indistinguishable.
+%Considerable factors are affecting the market, and the interaction of them leads to indistinguishable information. 
+To figure out this noisy information and improve generalization ability, machine learning gives the big-scale problem a chance to be solved. This paper seems the market as partially observable Markov decision process (POMDP) \citep{KAELBLING199899} and solves the process by recurrent deterministic policy gradient (RDPG) \citep{DBLP:journals/corr/HeessHLS15}, an off-policy deep reinforcement learning algorithm while deep learning concentrates on predicting the price trend and reinforcement learning focuses on constructing the best trading strategy.
+
+\item Challenge 3: Balancing Exploration and Exploitation
+
+But the reinforcement learning itself gives the third challenge, balancing exploration and exploitation. Because of the market friction like transaction fee, slippage, and market capacity, randomly explore the market without goals may cause great losses. However, a beneficial trading strategy is hard to get without enough trials and errors. To alleviate the trade-off problem, this paper uses imitative learning techniques, that is,  demonstration buffer and behavior cloning while the former learns from the technical index, Dual Thrust and the latter sets a prophetic trading expert which will take a daily sub-optimal action to execute. Overall, the whole three challenges can be tackled by the proposed method from this paper, imitative Recurrent Deterministic Policy Gradient (iRDPG) which contains imitative technique and RDPG algorithm. 
+\end{itemize}

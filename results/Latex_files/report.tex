@@ -1,0 +1,78 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2020
+
+% ready for submission
+ %\usepackage{neurips_2020}
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+\usepackage[preprint]{neurips_2020}
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+%\usepackage[final]{neurips_2020}
+
+% to avoid loading the natbib package, add option nonatbib:
+%\usepackage[nonatbib]{neurips_2020}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+
+% Added packages
+\usepackage{amsmath,amssymb}
+\DeclareMathOperator{\EX}{\mathbb{E}}% expected value
+\usepackage{comment} % to comment out some codes
+\usepackage{graphicx} % to insert some figures
+\graphicspath{{figs/}} % to insert some figures
+\usepackage{amsmath}
+
+
+\title{Adaptive Quantitative Trading: An Imitative Deep Reinforcement Learning Approach}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+
+\author{%
+  Chia-Hung Liao$^1$, Chia-Wei Hsu$^2$, Zhen-Yuan Hsu$^3$, Yu-Lin Lu$^4$\\
+  
+  \texttt{\{$^1$aiallen.cs07g, $^3$anson.cs08g\}@nctu.edu.tw}\\
+  \texttt{\{$^2$music87.c, $^4$nycu309551038.cs09\}@nycu.edu.tw}\\
+  Department of Computer Science\\
+  National Chiao Tung University\\
+}
+
+\begin{document}
+\maketitle
+
+
+\input{1-overview}
+
+\input{2-algorithm}
+
+\input{3-implementation}
+
+\input{4-evaluation}
+
+\input{5-conclusion}
+{
+\small
+\bibliographystyle{unsrtnat}
+\bibliography{reference}
+}
+
+
+\end{document}
+
